@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap);
+
+
+body {
+    background: black;
+    color: #79bad2;
+    font-family: 'Charm';
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #79bad2;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #183064;
+}
+
+header {
+    background-image: url('assets/CosmicLandscape.jpg');
+    background-size: cover;
+    display: flex;
+    width: 100vw;
+    padding: 20px;
+    box-shadow: 0 0 21px 7px #fecbff91;
+}
+
+header div {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 21px 7px #fecbff91;
+    border-radius: 25%;
+    text-align: center;
+}
+
+header div h1 {
+    padding: 15px;
+    font-size: 36px;
+    color: lightblue;
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 32px;
+    color: lightblue;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+section {
+    display: block;
+    justify-content: center;
+    margin: 40px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+ul {
+    border-radius: 25%;
+    box-shadow: 0 0 21px 7px lightblue;
+    background-color: rgba(0, 0, 81, 0.249);
+    margin: 40px;
+    padding: 60px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li button {
+    
+}
+
+h2, .genre {
+    text-align: center;
+    text-decoration: underline;
+    color: #e0bbff;
+    font-size: 32px;
+}
+
+.details {
+    text-align: justify;
+    font-size: 20px;
+    color: lightsteelblue;
+    margin: 20px;
+    padding: 5px;
+}
+
+button {
+    border-color: lightblue;
+    border-radius: 10px;
+    background: transparent;
+    color: lightblue;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.changeName {
+    font-size: 16px;
+    padding: 10px 24px;
+    margin-bottom: 30px;
+}
+
+.remove {
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+
+.detailsToggle {
+    margin-left: 80px;
+}
+
+button:hover {
+    background-color: lightblue;
+    color: black;
+}
+  

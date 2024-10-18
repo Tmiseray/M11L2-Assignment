@@ -7,7 +7,11 @@ function App() {
 
   return (
     <>
-      <UserProfile />
+      <header>
+        <>
+          <UserProfile />
+        </>
+      </header>
       <MovieList />
     </>
   );

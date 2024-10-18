@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css'
 
 class UserProfile extends Component {
     constructor(props) {
@@ -22,7 +23,7 @@ class UserProfile extends Component {
             <div>
                 <h1>User Profile</h1>
                 <p>Name: {name} </p>
-                <button onClick={this.changeName}>Change Name</button>
+                <button className='changeName' onClick={this.changeName}>Change Name</button>
             </div>
         );
     }
